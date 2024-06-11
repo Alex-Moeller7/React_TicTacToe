@@ -105,7 +105,7 @@ h1 {
 .player-name {
   display: inline-block;
   width: 10rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #e1dec7;
   text-transform: uppercase;
   margin: 0;
@@ -113,12 +113,11 @@ h1 {
   border-radius: 4px;
   text-overflow: ellipsis;
   text-align: center;
-  border: 2px solid #23221f;
 }
 
 .player input {
   font: inherit;
-  font-size: 1.25rem;
+  font-size: 1rem;
   width: 10rem;
   border: none;
   padding: 0.5rem;
@@ -129,18 +128,9 @@ h1 {
 }
 
 .player-symbol {
-  margin: 0rem;
-  font-size: 0.9rem;
+  margin-left: 1rem;
+  font-size: 1rem;
   color: #e1dec7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.editBtn {
-  font-weight: bold;
-  margin-top: -2.75rem;
 }
 
 ol {
