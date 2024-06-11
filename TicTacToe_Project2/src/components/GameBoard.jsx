@@ -7,7 +7,7 @@ const initialGameBoard = [
   [null, null, null],
 ];
 
-export default function GameBoard() {
+export default function GameBoard({ onSelectSquare, activePlayerSymbol }) {
   //Note: Param of useState is the initial state
   const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
@@ -18,11 +18,13 @@ export default function GameBoard() {
 
       //change correct position determined by rowIndex and ColIndex
       //Key Concept: State updated using arrays/objects should be updated in an immutable way
-      updatedBoard[rowIndex][colIndex] = "X";
+      updatedBoard[rowIndex][colIndex] = activePlayerSymbol;
 
       //return new Game board with updated square
       return updatedBoard;
     });
+
+    onSelectSquare();
   }
 
   return (
