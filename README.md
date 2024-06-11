@@ -1,8 +1,12 @@
-# React Course Project 2 (Section 4)
+# React Course Project 2 (Section 4) - Tic Tac Toe Game
 
-## Tic Tac Toe Game
+## Summary: A basic tic-tac-toe game from the React Course in Section 4.
 
-This project features a basic tic-tac-toe game that includes an interactive game UI, a move history indicator, and live updates to the game board as the game progresses
+## Features:
+- Ability to edit, save, and change player 1 and player 2 names
+- Live updates and interactive game features (symbol appers on click of box, etc.)
+- A move history list that updates as moves (symbols) are clicked onto the game board (Ex: Player 1 (0, 1))
+- Custom style (CSS) and display
 
 ### To run the project:
 1. Clone the repo
