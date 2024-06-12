@@ -8,7 +8,7 @@ export default function Player({ intialName, symbol, isActive }) {
   const [isEditing, setIsEditing] = useState(false);
 
   /**
-   *
+   *  Function to control isEditing, meaning player is editing a name
    */
   function handleEditClick() {
     setIsEditing((editing) => !editing);
